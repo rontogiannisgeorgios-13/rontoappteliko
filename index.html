@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Γεώργιος Ροντογιάννης | Mini App</title>
+  <meta name="description" content="Mini app για ραντεβού, οδηγίες ασθενών και χρήσιμα έντυπα του ιατρείου.">
+
+  <meta name="theme-color" content="#163b3f">
+  <link rel="manifest" href="/app/manifest.json">
+	
+  <link rel="apple-touch-icon" href="/app/images/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <link rel="stylesheet" href="/app/style.css?v=10">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+<div class="app-container">
+
+  <div class="background-logo"></div>
+
+  <header class="app-header">
+    <img
+      class="clinic-logo"
+      src="/app/images/icon-512.png"
+      alt="Dr.Rontogiannis">
+
+    <div class="header-text">
+      <h1>Γ. Ροντογιάννης</h1>
+      <p>Ορθοπεδικός Χειρουργός</p>
+    </div>
+  </header>
+
+  <section class="welcome-card">
+    <p class="welcome-label">Καλώς ήρθατε</p>
+    <h2>Πώς μπορούμε να σας βοηθήσουμε;</h2>
+  </section>
+
+	<button id="installBtn" class="install-card" style="display:none;">
+  📱 Εγκατάσταση Εφαρμογής
+</button>
+
+<div id="iosInstallHint" class="ios-install-card" style="display:none;">
+  <strong>📱 Εγκατάσταση σε iPhone</strong>
+
+  <div class="ios-step">
+    <span>1</span>
+    Πατήστε το κουμπί <b>Κοινοποίηση</b> επάνω δεξιά.
+  </div>
+
+  <div class="ios-step">
+    <span>2</span>
+    Πατήστε <b>Προβολή περισσότερων</b>.
+  </div>
+
+  <div class="ios-step">
+    <span>3</span>
+    Επιλέξτε <b>Προσθήκη στην οθόνη Αφετηρίας</b>.
+  </div>
+</div>
+	
+  <a class="appointment-card" href="https://iatreioxalkida.youcanbook.me/">
+    <div class="appointment-icon">
+      <i data-lucide="calendar-days"></i>
+    </div>
+
+    <section>
+      <h2>Κλείστε Ραντεβού</h2>
+      <p>Online κράτηση 24/7</p>
+    </section>
+
+    <span>›</span>
+  </a>
+
+  <main class="dashboard-grid">
+
+    <a class="grid-card" href="tel:+302221021010">
+      <i data-lucide="phone"></i>
+      <strong>Καλέστε<br>το Ιατρείο</strong>
+    </a>
+
+    <a class="grid-card" href="https://maps.app.goo.gl/kZmDH5XcsfjVbznt6?g_st=ac">
+      <i data-lucide="map-pin"></i>
+      <strong>Οδηγίες<br>Πρόσβασης</strong>
+    </a>
+
+    <a class="grid-card" href="entypa.html">
+      <i data-lucide="file-text"></i>
+      <strong>Χρήσιμα<br>Έντυπα</strong>
+    </a>
+
+    <a class="grid-card" href="odigies.html">
+      <i data-lucide="clipboard-list"></i>
+      <strong>Οδηγίες<br>Ασθενών</strong>
+    </a>
+
+    <a class="grid-card" href="https://georgiosrontogiannis.gr/apostoli-exetaseon/">
+      <i data-lucide="upload-cloud"></i>
+      <strong>Αποστολή<br>Εξετάσεων</strong>
+    </a>
+
+    <a class="grid-card" href="https://g.page/r/CZXGdi5AnGtLEBE/review">
+      <i data-lucide="star"></i>
+      <strong>Αφήστε<br>Αξιολόγηση</strong>
+    </a>
+
+  </main>
+
+</div>
+
+<script>
+  lucide.createIcons();
+
+  let deferredPrompt;
+  const installBtn = document.getElementById('installBtn');
+  const iosHint = document.getElementById('iosInstallHint');
+
+  const isIos = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+  const isStandalone =
+    window.matchMedia('(display-mode: standalone)').matches ||
+    window.navigator.standalone === true;
+
+  if (isIos && !isStandalone) {
+    iosHint.style.display = 'block';
+  }
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installBtn.style.display = 'block';
+  });
+
+  installBtn.addEventListener('click', async () => {
+    if (!deferredPrompt) return;
+
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+
+    deferredPrompt = null;
+    installBtn.style.display = 'none';
+  });
+
+  window.addEventListener('appinstalled', () => {
+    installBtn.style.display = 'none';
+    iosHint.style.display = 'none';
+  });
+</script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/app/sw.js', { scope: '/app/' }).catch(() => {});
+    });
+  }
+</script>
+
+</body>
+</html>

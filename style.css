@@ -1,0 +1,777 @@
+/* Local Inter font */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-a375c31d43.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-13755630d7.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-da72a9f738.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-3b78c6fa64.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-f059b71e05.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-b6db4a06c1.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/app/fonts/inter-6ab57b19c6.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-a375c31d43.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-13755630d7.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-da72a9f738.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-3b78c6fa64.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-f059b71e05.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-b6db4a06c1.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/app/fonts/inter-6ab57b19c6.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-a375c31d43.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-13755630d7.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-da72a9f738.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-3b78c6fa64.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-f059b71e05.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-b6db4a06c1.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/app/fonts/inter-6ab57b19c6.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-a375c31d43.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-13755630d7.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-da72a9f738.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-3b78c6fa64.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-f059b71e05.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-b6db4a06c1.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/app/fonts/inter-6ab57b19c6.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-a375c31d43.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-13755630d7.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-da72a9f738.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-3b78c6fa64.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-f059b71e05.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-b6db4a06c1.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/app/fonts/inter-6ab57b19c6.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* End local Inter font */
+
+:root{
+  --bg:#f6f1ea;
+  --card:rgba(255,255,255,.82);
+  --primary:#163b3f;
+  --primary-dark:#071f23;
+  --gold:#a98755;
+  --text:#122d31;
+  --muted:#6f7678;
+  --shadow:0 16px 38px rgba(7,31,35,.12);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  font-family:'Inter',sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(196,160,106,.14), transparent 22rem),
+    linear-gradient(180deg,#fffdf8 0%,#f7f3ed 100%);
+  color:var(--text);
+}
+
+.app-container{
+  position:relative;
+  overflow:hidden;
+  max-width:430px;
+  margin:0 auto;
+  padding:18px 16px 30px;
+}
+
+.background-logo{
+  position:absolute;
+  inset:0;
+  background-image:url('https://georgiosrontogiannis.gr/wp-content/uploads/2022/02/RONTOGIANNIS-logo1.webp');
+  background-repeat:no-repeat;
+  background-position:center 65%;
+  background-size:280px;
+  opacity:.025;
+  pointer-events:none;
+}
+
+.app-header{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:20px;
+  z-index:2;
+}
+
+.clinic-logo{
+  width:110px;
+  height:110px;
+  object-fit:contain;
+  flex-shrink:0;
+}
+
+.header-text h1{
+  font-size:24px;
+  line-height:1.05;
+  letter-spacing:-.05em;
+  font-weight:800;
+}
+
+.header-text p{
+  margin-top:8px;
+  color:var(--gold);
+  font-size:14px;
+  font-weight:700;
+}
+
+.welcome-card{
+  position:relative;
+  z-index:2;
+  margin-bottom:16px;
+  padding:18px;
+  border-radius:24px;
+  background:rgba(255,255,255,.55);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.5);
+  box-shadow:var(--shadow);
+}
+
+.welcome-label{
+  color:var(--gold);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.welcome-card h2{
+  margin-top:8px;
+  font-size:22px;
+  line-height:1.15;
+  letter-spacing:-.04em;
+}
+
+.appointment-card{
+  position:relative;
+  z-index:2;
+  min-height:90px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:18px;
+  border-radius:28px;
+  text-decoration:none;
+  color:white;
+  background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+  box-shadow:0 18px 36px rgba(13,70,80,.22);
+  margin-bottom:16px;
+}
+
+.appointment-icon svg{
+  width:30px;
+  height:30px;
+  stroke:white;
+  stroke-width:1.8;
+}
+
+.appointment-card section{
+  flex:1;
+}
+
+.appointment-card h2{
+  font-size:22px;
+  line-height:1;
+  letter-spacing:-.04em;
+}
+
+.appointment-card p{
+  margin-top:6px;
+  color:#e7cf9d;
+  font-size:13px;
+}
+
+.appointment-card span{
+  font-size:36px;
+  color:var(--gold);
+}
+
+.dashboard-grid{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.grid-card{
+  min-height:100px;
+  padding:16px;
+  text-decoration:none;
+  color:inherit;
+  border-radius:24px;
+  background:var(--card);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.5);
+  box-shadow:var(--shadow);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:.18s ease;
+}
+
+.grid-card:active{
+  transform:scale(.98);
+}
+
+.grid-card svg{
+  width:28px;
+  height:28px;
+  stroke:var(--primary);
+  stroke-width:1.85;
+}
+
+.grid-card strong{
+  font-size:16px;
+  line-height:1.15;
+  letter-spacing:-.03em;
+}
+
+.grid-card:last-child svg{
+  stroke:var(--gold);
+}
+
+/* =========================
+   ENTYPA PAGE
+========================= */
+
+.page-header{
+  position:relative;
+  z-index:2;
+  margin-bottom:20px;
+}
+
+.back-button{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-bottom:16px;
+  text-decoration:none;
+  color:var(--primary);
+  font-size:14px;
+  font-weight:800;
+}
+
+.back-button svg{
+  width:18px;
+  height:18px;
+  stroke-width:2.2;
+}
+
+.documents-page{
+  position:relative;
+  z-index:2;
+}
+
+.doc-group{
+  margin-bottom:28px;
+}
+
+.doc-group h3{
+  margin-bottom:12px;
+  padding-left:4px;
+  color:var(--gold);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+.doc-button{
+  min-height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:18px;
+  margin-bottom:12px;
+  text-decoration:none;
+  color:var(--text);
+  border-radius:24px;
+  background:var(--card);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.5);
+  box-shadow:var(--shadow);
+  transition:.18s ease;
+}
+
+.doc-button:active{
+  transform:scale(.98);
+}
+
+.doc-left{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.doc-left svg{
+  width:25px;
+  height:25px;
+  stroke:var(--primary);
+  stroke-width:1.85;
+  flex-shrink:0;
+}
+
+.doc-left span{
+  font-size:16px;
+  font-weight:800;
+  letter-spacing:-.03em;
+}
+
+.doc-button > svg{
+  width:22px;
+  height:22px;
+  stroke:var(--gold);
+  stroke-width:2.2;
+  flex-shrink:0;
+}
+
+@media(max-width:380px){
+  .clinic-logo{
+    width:90px;
+    height:90px;
+  }
+
+  .header-text h1{
+    font-size:22px;
+  }
+
+  .welcome-card h2{
+    font-size:21px;
+  }
+
+  .grid-card{
+    min-height:108px;
+  }
+
+  .grid-card strong{
+    font-size:15px;
+  }
+
+  .doc-button{
+    min-height:64px;
+    padding:16px;
+  }
+
+  .doc-left span{
+    font-size:15px;
+  }
+}
+
+/* =========================
+   GUIDE PAGE
+========================= */
+
+.guide-page{
+  position:relative;
+  z-index:2;
+}
+
+.info-card{
+  margin-bottom:14px;
+
+  padding:18px;
+
+  border-radius:24px;
+
+  background:var(--card);
+
+  border:1px solid rgba(255,255,255,.5);
+
+  backdrop-filter:blur(14px);
+
+  box-shadow:var(--shadow);
+}
+
+.info-title{
+  margin-bottom:10px;
+
+  font-size:17px;
+  font-weight:800;
+
+  color:var(--primary);
+
+  letter-spacing:-.02em;
+}
+
+.info-card p{
+  line-height:1.6;
+  font-size:15px;
+  color:var(--text);
+}
+
+/* =========================
+   GUIDE ACTION BUTTONS
+========================= */
+
+.compact-action{
+  min-height:72px !important;
+  margin-top:14px;
+}
+
+.compact-action h2{
+  font-size:20px !important;
+}
+
+.compact-action .appointment-icon svg{
+  width:28px;
+  height:28px;
+}
+
+/* =========================
+   INSTALL APP BUTTON
+========================= */
+
+.install-card{
+  position:relative;
+  z-index:2;
+  width:100%;
+  margin-bottom:16px;
+  padding:16px 18px;
+  border:0;
+  border-radius:24px;
+  background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+  color:white;
+  font-family:'Inter',sans-serif;
+  font-size:16px;
+  font-weight:800;
+  box-shadow:var(--shadow);
+}
+
+.install-card:active{
+  transform:scale(.98);
+}
+
+.install-hint{
+  position:relative;
+  z-index:2;
+  margin-bottom:16px;
+  padding:14px 16px;
+  border-radius:20px;
+  background:var(--card);
+  color:var(--primary);
+  font-size:14px;
+  line-height:1.45;
+  font-weight:700;
+  box-shadow:var(--shadow);
+}
+
+.ios-install-card{
+  position:relative;
+  z-index:2;
+  margin-bottom:16px;
+  padding:16px;
+  border-radius:22px;
+  background:rgba(255,255,255,.82);
+  border:1px solid rgba(255,255,255,.55);
+  box-shadow:var(--shadow);
+  color:var(--text);
+}
+
+.ios-install-card strong{
+  display:block;
+  margin-bottom:12px;
+  color:var(--primary);
+  font-size:16px;
+  font-weight:800;
+}
+
+.ios-step{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  margin-top:10px;
+  font-size:14px;
+  line-height:1.35;
+}
+
+.ios-step span{
+  width:24px;
+  height:24px;
+  flex-shrink:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:var(--gold);
+  color:white;
+  font-size:13px;
+  font-weight:800;
+}
