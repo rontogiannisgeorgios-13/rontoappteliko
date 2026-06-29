@@ -1,34 +1,36 @@
-const CACHE_NAME = 'rontogiannis-mini-app-v3';
-const APP_BASE = '/app/';
+const CACHE_NAME = 'rontogiannis-mini-app-v4';
+const APP_BASE = new URL('./', self.registration.scope).pathname;
 const OFFLINE_URL = APP_BASE;
 
-const PRECACHE_URLS = [
-  APP_BASE,
-  APP_BASE + 'index.html',
-  APP_BASE + 'entypa.html',
-  APP_BASE + 'odigies.html',
-  APP_BASE + 'meta-prp.html',
-  APP_BASE + 'meta-yalouroniko.html',
-  APP_BASE + 'meta-kortizoni.html',
-  APP_BASE + 'prin-prp.html',
-  APP_BASE + 'prin-xeirourgeio.html',
-  APP_BASE + 'arthroskopisi-gonatou.html',
-  APP_BASE + 'arthroskopisi-omou.html',
-  APP_BASE + 'arthroplastiki-gonatou-robotiki.html',
-  APP_BASE + 'arthroplastiki-isxiou-amis.html',
-  APP_BASE + 'style.css?v=10',
-  APP_BASE + 'style.css',
-  APP_BASE + 'manifest.json',
-  APP_BASE + 'images/icon-192.png',
-  APP_BASE + 'images/icon-512.png',
-  APP_BASE + 'fonts/inter-a375c31d43.woff2',
-  APP_BASE + 'fonts/inter-13755630d7.woff2',
-  APP_BASE + 'fonts/inter-da72a9f738.woff2',
-  APP_BASE + 'fonts/inter-3b78c6fa64.woff2',
-  APP_BASE + 'fonts/inter-f059b71e05.woff2',
-  APP_BASE + 'fonts/inter-b6db4a06c1.woff2',
-  APP_BASE + 'fonts/inter-6ab57b19c6.woff2'
+const PRECACHE_PATHS = [
+  '',
+  'index.html',
+  'entypa.html',
+  'odigies.html',
+  'meta-prp.html',
+  'meta-yalouroniko.html',
+  'meta-kortizoni.html',
+  'prin-prp.html',
+  'prin-xeirourgeio.html',
+  'arthroskopisi-gonatou.html',
+  'arthroskopisi-omou.html',
+  'arthroplastiki-gonatou-robotiki.html',
+  'arthroplastiki-isxiou-amis.html',
+  'style.css?v=11',
+  'style.css',
+  'manifest.json',
+  'images/icon-192.png',
+  'images/icon-512.png',
+  'fonts/inter-a375c31d43.woff2',
+  'fonts/inter-13755630d7.woff2',
+  'fonts/inter-da72a9f738.woff2',
+  'fonts/inter-3b78c6fa64.woff2',
+  'fonts/inter-f059b71e05.woff2',
+  'fonts/inter-b6db4a06c1.woff2',
+  'fonts/inter-6ab57b19c6.woff2'
 ];
+
+const PRECACHE_URLS = PRECACHE_PATHS.map(path => new URL(path, self.registration.scope).toString());
 
 self.addEventListener('install', event => {
   event.waitUntil(

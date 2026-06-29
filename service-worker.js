@@ -1,1 +1,1 @@
-importScripts('/app/sw.js');
+importScripts('sw.js');

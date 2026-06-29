@@ -7,13 +7,13 @@
   <meta name="description" content="Mini app για ραντεβού, οδηγίες ασθενών και χρήσιμα έντυπα του ιατρείου.">
 
   <meta name="theme-color" content="#163b3f">
-  <link rel="manifest" href="/app/manifest.json">
+  <link rel="manifest" href="manifest.json">
 	
-  <link rel="apple-touch-icon" href="/app/images/icon-192.png">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <link rel="stylesheet" href="/app/style.css?v=10">
+  <link rel="stylesheet" href="style.css?v=11">
 
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -27,7 +27,7 @@
   <header class="app-header">
     <img
       class="clinic-logo"
-      src="/app/images/icon-512.png"
+      src="images/icon-512.png"
       alt="Dr.Rontogiannis">
 
     <div class="header-text">
@@ -154,7 +154,7 @@
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/app/sw.js', { scope: '/app/' }).catch(() => {});
+      navigator.serviceWorker.register('sw.js').catch(() => {});
     });
   }
 </script>
